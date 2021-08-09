@@ -8,7 +8,7 @@ public class ImportCSV {
 
 	String path = "/Users/thompsonc/Desktop/iris-training-data.csv";
 	try {
-	//read csv into an array named "trainAttributes"
+	//read csv into an array named "trainAttributes"....  write one method for 1D array and another for 2D array
 		Scanner scan= new Scanner (new BufferedReader(new FileReader(path)));
 	
 	
