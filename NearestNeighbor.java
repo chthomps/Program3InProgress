@@ -23,7 +23,7 @@ public class NearestNeighbor {
 	String inTrainFile = scantrain.nextLine();   //inTrainFile object passed to makeAttributeArray method
 	
 	
-	//Call method on specified, imported file
+	//Call method on user-specified, import file
 	trainAttributeArray = makeAttributeArray(inTrainFile);
 	
 	
