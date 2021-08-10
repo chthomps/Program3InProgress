@@ -40,8 +40,8 @@ public class NearestNeighbor {
 		testClassLabelArray = makeClassArray(inTestFile);
 		
 		
-		for (int index = 0; index >=testClassLabelArray.length-1; index++)
-		System.out.println(testClassLabelArray[index]);
+		for (String labels: classArray)
+			System.out.println(labels);
 		
 	}
 	
@@ -99,8 +99,7 @@ public class NearestNeighbor {
 
 			line = scan.nextLine();
 			String[] tempLine = scan.nextLine().split(","); // tempLine array, splitting each line of input file
-															// try taking this out later... =1 line
-
+									// try taking this out later... =1 line
 			classArray[row]= tempLine[tempLine.length-1];
 		}
 		
